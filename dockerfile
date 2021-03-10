@@ -1,4 +1,4 @@
 FROM ubuntu
 RUN apt-get update
-ADD time.sh /
+ADD time.bat /
 CMD ["bat","./time.bat"]

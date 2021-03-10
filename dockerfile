@@ -1,4 +1,3 @@
-FROM ubuntu
-RUN apt-get update
+FROM WINDOWS
 ADD time.bat /
 CMD ["bat","./time.bat"]
